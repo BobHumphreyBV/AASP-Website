@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>BeValued Apple Authorised Service Provider</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg static-top">
+        <div class="container">
+            <img class="navbar-brand" src="images/Be Group Logo NO MARK.png">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <img class="navbar-brand" src="images/Bitmap.png">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Content -->
+    <div class="no-gutters">
+        <div class="row">
+            <div id="orange-blob-1"></div>
+            <div class="col-lg-12 text-center">
+                <h1 class="mt-5">APPLE AUTHORISED REPAIRS.</h1>
+                <h2 class="lead">We are the sold Apple Authosied Service Provider<br> in Eastbourne and the surrounding areas</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="mt-5">HERE TO HELP</h3>
+                <p class="lead">We can offer help and advice either on the telephone or via appointment. We also accept walk-ins and will endeavour to assist you as quickly as possible.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container repairs">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="mt-5">WHAT WE CAN REPAIR. . .</h3>
+                <div class=" text-center">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="images/ipad.png"/>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/imac.png" />
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/macbook pro.png" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="images/macbook air.png" />
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/ipod.png" />
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/beats.png" />
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="images/apple tv.png" />
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/mac mini.png" />
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="images/mac pro.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="mt-5">OUR GUARANTEE</h3>
+                <p class="lead">Our Apple accredited technicians operate in a well-equipped workshop which is fully compliant with ESD guidelines and utilises industry standard tools.</p>
+                <p class="lead">We are equipped to deal with all eventualities to ensure that your device always received the best of care.</p>
+                <p class="lead">All inspections, repairs and diagnostic tests are carried out consistently folling best practice guidelines, to ensure that a maximum success rate is achieved.</p>
+                <p class="lead">We also ensure that you are kept up-to-date (when required) throughout the whole process.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="mt-5">HAVE CONFIDENCE</h3>
+                <p class="lead">We are a well-established business that has been recognised and trusted by Apple to repair and upgrade devices for over 10 years.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="no-gutters">
+        <div class="row">
+            <div id="orange-blob-2"></div>
+            <div class="col-lg-6">
+                <img class="navbar-brand" src="images/Apple products.png">
+            </div>
+            <div class="col-lg-6 what-to-expect">
+                <h3 class="mt-5">WHAT TO EXPECT</h3>
+                <p class="lead">- Please ensure where possible all data (if required) is backed up prior to arriving to see our technician.</p>
+                <p class="lead">- Our technician will answer any questions and if possible will provide a diagnosis at the time of the appointment.</p>
+                <p class="lead">- If any inspection is required, our technician will explain the process and timescales to you.</p>
+                <p class="lead">- If a repair is necessary, our technician will contact you to discuss the options, confirm costs and timescales.</p>
+                <p class="lead">- Appoitments can take between 10-20 minutes depending on the nature of the problem.</p>
+                <button class="appointment-button">BOOK AN APPOINTMENT</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="mt-5">HAVE CONFIDENCE</h3>
+                <p class="lead">We are a well-established business that has been recognised and trusted by Apple to repair and upgrade devices for over 10 years.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6" id="map"></div>
+            <script>
+                // Initialize and add the map
+                function initMap() {
+                    // The location of Uluru
+                    var Bevalued = { lat: 50.777143, lng: 0.287617 };
+                    // The map, centered at Uluru
+                    var map = new google.maps.Map(
+                        document.getElementById('map'),
+                        { zoom: 4, center: Bevalued });
+                    // The marker, positioned at Uluru
+                    var marker = new google.maps.Marker({ position: Bevalued, map: map });
+                }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg8JAlEIiI0EzBsf8YXpyX1EoQT5uJAjI&callback=initMap">
+            </script>
+        </div>
+        <div class="col-lg-4">
+            <h3 class="mt-5">CONTACT US</h3>
+            <h4>ADDRESS.</h4>
+            <p class="lead">Be AASP <br /> Technology Business Park <br /> Moy Avenue <br /> Eastbourne <br /> BN22 8LD</p>
+            <h4>EMAIL.</h4>
+            <p class="lead">contactus@be-aasp.co.uk</p>
+            <h4>PHONE.</h4>
+            <p class="lead">01323 418 434</p>
+            <h4>OPENING HOURS.</h4>
+            <p class="lead">Monday - 8am - 4pm <br />Tuesday - 8am - 4pm <br />Wednesday - 8am - 4pm <br />Thursday - 8am - 4pm <br />Friday - 8am - 4pm <br />Friday - 9am - 1pm <br />Sunday - Closed</p>
+        </div>
+    </div>
+
+    <div class="no-gutter">
+        <div class="row">
+            <div class="col-lg-12 text-center align-bottom">
+                <div class="align-middle footer">Copyright &copy; 2018 Be Valued Ltd</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

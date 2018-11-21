@@ -1,0 +1,92 @@
+﻿
+.navbar {    
+    background-image: linear-gradient(to right, rgba(223,108,27,0.9) ,rgba(223,108,27,1));
+    height: 70px;
+}
+
+h1,h2, .nav-item {
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3.5rem
+}
+
+h2 {
+    font-size: 2rem !important;
+}
+
+h3 {
+    color: #df6c1b;
+}
+
+h4 {
+    color: #df6c1b;
+}
+
+p {
+    color: #3d4d65;
+}
+
+.what-to-expect h3, .what-to-expect p {
+    color: #ffffff;
+}
+
+.repairs img {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform .2s;
+}
+
+.repairs img:hover {
+    transform: scale(1.1);
+}
+
+
+#orange-blob-1{
+    left: 0;
+    right: 0;
+    height:400px;
+    background-image: linear-gradient(to right, rgba(223,108,27,0.9) ,rgba(223,108,27,1));
+    margin:0;
+    padding:0;
+    position:absolute;   
+    border-radius: 100% / 70%;
+    top: -70px;
+    z-index: -1;
+}
+
+#orange-blob-2{
+    left: 0;
+    right: 0;
+    height:700px;
+    background-image: linear-gradient(to right, rgba(223,108,27,0.9) ,rgba(223,108,27,1));
+    margin:0;
+    padding:0;
+    position:absolute;   
+    border-radius: 100% / 20%;
+    top: 1450px;
+    z-index: -1;
+}
+
+#map {
+    height: 400px; 
+    width: 50%;
+    right: 10%;
+    position: absolute;
+}
+
+.appointment-button {
+    color: #df6c1b;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none !important;
+}
+
+.footer {
+    height: 70px;
+    line-height: 70px;
+    background-image: linear-gradient(to right, rgba(223,108,27,0.9) ,rgba(223,108,27,1));
+    color: #ffffff;
+}
