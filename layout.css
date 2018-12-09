@@ -1,7 +1,92 @@
-﻿
-.navbar {    
-    background-image: linear-gradient(to right, rgba(223,108,27,0.9) ,rgba(223,108,27,1));
-    height: 70px;
+
+.container {margin-bottom: 5%;}
+
+.aasp-img {
+  float: right;
+}
+
+.orange-blob-1 {
+  top: 0px;
+  position: absolute;
+  background-image: linear-gradient(to right, #e58948 , #df6c1b);
+  border-radius: 50% / 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  z-index: -1;
+  display: inline-block;
+}
+
+@media screen and (min-width: 500px) and (max-width:699px)  {
+  .orange-blob-1 {
+    height: 500px;
+    border-radius: 80% / 300%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width:769px)  {
+  .orange-blob-1 {
+    height: 400px;
+    border-radius: 100% / 500%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width:899px)  {
+  .orange-blob-1 {
+    height: 400px;
+    border-radius: 50% / 300%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width:999px)  {
+  .orange-blob-1 {
+    height: 400px;
+    border-radius: 50% / 140%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  .orange-blob-1 {
+    height: 360px;
+    border-radius: 50% / 120%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+@media screen and (min-width: 1101px)  {
+  .orange-blob-1 {
+ height: 360px;
+ border-radius: 50% / 100%;
+ border-top-left-radius: 0;
+ border-top-right-radius: 0;
+  }
+}
+
+.orange-blob-2 {
+  top: 1660px;
+  position: absolute;
+  height: 700px;
+  background-image: linear-gradient(to right, #e58948 , #df6c1b);
+  border-radius: 30%;
+  z-index: -2;
+    -ms-transform: skewY(-10deg); /* IE 9 */
+    -webkit-transform: skewY(-10deg); /* Safari 3-8 */
+    transform: skewY(-10deg);
+}
+
+.what-to-expect {
+  background: url("./images/Apple products.png");
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    margin-bottom: 200px;
 }
 
 h1,h2, .nav-item {
@@ -29,12 +114,12 @@ p {
 }
 
 .what-to-expect h3, .what-to-expect p {
-    color: #ffffff;
+    //color: #ffffff;
 }
 
 .repairs img {
     margin: 20px;
-    width: 100px;
+    width: auto;
     height: 100px;
     transition: transform .2s;
 }
@@ -43,36 +128,14 @@ p {
     transform: scale(1.1);
 }
 
-
-#orange-blob-1{
-    left: 0;
-    right: 0;
-    height:400px;
-    background-image: linear-gradient(to right, rgba(223,108,27,0.9) ,rgba(223,108,27,1));
-    margin:0;
-    padding:0;
-    position:absolute;   
-    border-radius: 100% / 70%;
-    top: -70px;
-    z-index: -1;
-}
-
-#orange-blob-2{
-    left: 0;
-    right: 0;
-    height:700px;
-    background-image: linear-gradient(to right, rgba(223,108,27,0.9) ,rgba(223,108,27,1));
-    margin:0;
-    padding:0;
-    position:absolute;   
-    border-radius: 100% / 20%;
-    top: 1450px;
-    z-index: -1;
+.hero-img {max-width:100%;
+max-height:100%;
+z-index: -1;
 }
 
 #map {
-    height: 400px; 
-    width: 50%;
+    height: 400px;
+    width: 90%;
     right: 10%;
     position: absolute;
 }
@@ -82,6 +145,7 @@ p {
     background-color: #ffffff;
     border-radius: 5px;
     border: none !important;
+    padding: 10px;
 }
 
 .footer {
