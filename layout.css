@@ -4,82 +4,11 @@
 .aasp-img {
   float: right;
 }
-
-.orange-blob-1 {
-  top: 0px;
-  position: absolute;
-  background-image: linear-gradient(to right, #e58948 , #df6c1b);
-  border-radius: 50% / 100%;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.orange-background {
+  background-image: linear-gradient(to right, #FFB46F , #F76B1C);
   z-index: -1;
-  display: inline-block;
-}
-
-@media screen and (min-width: 500px) and (max-width:699px)  {
-  .orange-blob-1 {
-    height: 500px;
-    border-radius: 80% / 300%;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-}
-
-@media screen and (min-width: 700px) and (max-width:769px)  {
-  .orange-blob-1 {
-    height: 400px;
-    border-radius: 100% / 500%;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-}
-
-@media screen and (min-width: 770px) and (max-width:899px)  {
-  .orange-blob-1 {
-    height: 400px;
-    border-radius: 50% / 300%;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-}
-
-@media screen and (min-width: 900px) and (max-width:999px)  {
-  .orange-blob-1 {
-    height: 400px;
-    border-radius: 50% / 140%;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1100px) {
-  .orange-blob-1 {
-    height: 360px;
-    border-radius: 50% / 120%;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-}
-
-@media screen and (min-width: 1101px)  {
-  .orange-blob-1 {
- height: 360px;
- border-radius: 50% / 100%;
- border-top-left-radius: 0;
- border-top-right-radius: 0;
-  }
-}
-
-.orange-blob-2 {
-  top: 1660px;
-  position: absolute;
-  height: 700px;
-  background-image: linear-gradient(to right, #e58948 , #df6c1b);
-  border-radius: 30%;
-  z-index: -2;
-    -ms-transform: skewY(-10deg); /* IE 9 */
-    -webkit-transform: skewY(-10deg); /* Safari 3-8 */
-    transform: skewY(-10deg);
+  padding: 20px 0px;
+  color: #ffffff !important;
 }
 
 .what-to-expect {
@@ -141,8 +70,8 @@ z-index: -1;
 }
 
 .appointment-button {
-    color: #df6c1b;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #df6c1b;
     border-radius: 5px;
     border: none !important;
     padding: 10px;
@@ -151,6 +80,6 @@ z-index: -1;
 .footer {
     height: 70px;
     line-height: 70px;
-    background-image: linear-gradient(to right, rgba(223,108,27,0.9) ,rgba(223,108,27,1));
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #df6c1b;
 }
