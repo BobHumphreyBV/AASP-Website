@@ -1,85 +1,210 @@
-
-.container {margin-bottom: 5%;}
+.container {
+  margin-bottom: 5%;
+}
 
 .aasp-img {
   float: right;
 }
+
 .orange-background {
-  background-image: linear-gradient(to right, #FFB46F , #F76B1C);
-  z-index: -1;
+  background-image: linear-gradient(to right, #FFB46F, #F76B1C);
+  z-index: -2;
   padding: 20px 0px;
   color: #ffffff !important;
 }
 
-.what-to-expect {
-  background: url("./images/Apple products.png");
-    background-repeat: no-repeat;
-    background-size: 600px 350px;
-    margin-bottom: 200px;
-}
-
-h1,h2, .nav-item {
-    color: #ffffff;
+h1, h2, .nav-item, .white {
+  color: #ffffff !important;
 }
 
 h1 {
-    font-size: 3.5rem
+  font-size: 3.5rem
 }
 
 h2 {
-    font-size: 2rem !important;
+  font-size: 2rem !important;
 }
 
 h3 {
-    color: #df6c1b;
+  color: #df6c1b;
 }
 
 h4 {
-    color: #df6c1b;
+  color: #df6c1b;
 }
 
 p {
-    color: #3d4d65;
-}
-
-.what-to-expect h3, .what-to-expect p {
-    //color: #ffffff;
+  color: #3d4d65;
 }
 
 .repairs img {
-    margin: 20px;
-    width: auto;
-    height: 100px;
-    transition: transform .2s;
+  margin: 20px;
+  width: auto;
+  height: 100px;
+  transition: transform .2s;
 }
 
 .repairs img:hover {
-    transform: scale(1.1);
-}
-
-.hero-img {max-width:100%;
-max-height:100%;
-z-index: -1;
-}
-
-#map {
-    height: 400px;
-    width: 90%;
-    right: 10%;
-    position: absolute;
+  transform: scale(1.1);
 }
 
 .appointment-button {
-    color: #ffffff;
-    background-color: #df6c1b;
-    border-radius: 5px;
-    border: none !important;
-    padding: 10px;
+  color: #ffffff;
+  background-color: #df6c1b;
+  border-radius: 5px;
+  border: none !important;
+  padding: 10px;
+  margin-bottom: 260px;
 }
 
 .footer {
-    height: 70px;
-    line-height: 70px;
-    background-color: #ffffff;
-    color: #df6c1b;
+  height: 70px;
+  line-height: 70px;
+  background-color: #ffffff;
+  color: #df6c1b;
+}
+
+@media screen and (max-width: 450px) {
+   .aasp-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .macbookpro-img, .appleproducts-img, .befront-img, #map {
+    display: none;
+  }
+  .appointment-button {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (width: 768px) {
+  .macbookpro-img {
+    display: none;
+  }
+  .appleproducts-img {
+    position: absolute;
+    top: 540px;
+    left: 100px;
+    z-index: -1;
+    height: 260px;
+    width: auto;
+  }
+  .befront-img {
+    position: absolute;
+    top: -300px;
+    right: 0px;
+    z-index: 0;
+    height: 300px;
+    width: auto;
+  }
+  #map {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: -700px;
+    right: 0px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .macbookpro-img {
+    position: absolute;
+    top: 420px;
+    right: 0px;
+    z-index: -1;
+    height: 360px;
+    width: auto;
+  }
+  .appleproducts-img {
+    position: absolute;
+    top: 200px;
+    left: -600px;
+    z-index: -1;
+    height: 600px;
+    width: auto;
+  }
+  .befront-img {
+    position: absolute;
+    top: 430px;
+    left: 150px;
+    z-index: 0;
+    height: 300px;
+    width: auto;
+  }
+  #map {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1919px) {
+  .macbookpro-img {
+    position: absolute;
+    top: 260px;
+    right: 0px;
+    z-index: -1;
+    height: 400px;
+    width: auto;
+  }
+  .appleproducts-img {
+    position: absolute;
+    top: 100px;
+    left: -600px;
+    z-index: -1;
+    height: 700px;
+    width: auto;
+  }
+  .befront-img {
+    position: absolute;
+    top: 380px;
+    left: 210px;
+    z-index: 0;
+    height: 360px;
+    width: auto;
+  }
+  #map {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .macbookpro-img {
+    position: absolute;
+    top: 30px;
+    right: -220px;
+    z-index: -1;
+    height: 700px;
+    width: auto;
+  }
+  .appleproducts-img {
+    position: absolute;
+    top: 100px;
+    left: -400px;
+    z-index: -1;
+    height: 700px;
+    width: auto;
+  }
+  .befront-img {
+    position: absolute;
+    top: 400px;
+    left: 230px;
+    height: 360px;
+    width: auto;
+  }
+  #map {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+  }
 }
