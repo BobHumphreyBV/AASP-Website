@@ -1,5 +1,10 @@
 .container {
-  margin-bottom: 5%;
+  margin-bottom: 7%;
+    margin-top: 5%;
+}
+
+li {
+  margin-bottom: 20px;
 }
 
 .aasp-img {
@@ -11,6 +16,7 @@
   z-index: -2;
   padding: 20px 0px;
   color: #ffffff !important;
+  padding:
 }
 
 h1, h2, .nav-item, .white {
@@ -27,6 +33,7 @@ h2 {
 
 h3 {
   color: #df6c1b;
+  margin-bottom: 30px;
 }
 
 h4 {
@@ -38,7 +45,7 @@ p {
 }
 
 .repairs img {
-  margin: 20px;
+  margin: 40px 20px;
   width: auto;
   height: 100px;
   transition: transform .2s;
@@ -50,19 +57,20 @@ p {
 
 .appointment-button {
   color: #ffffff;
-  background-color: #df6c1b;
+  background-color: #F76B1C;
   border-radius: 5px;
   border: none !important;
-  padding: 10px;
+  padding: 10px 40px;
+  margin-top: 100px;
   margin-bottom: 260px;
 }
 
 .appointment-button-repair {
   color: #ffffff;
-  background-color: #df6c1b;
+  background-color: #F76B1C;
   border-radius: 5px;
   border: none !important;
-  padding: 10px;
+  padding: 10px 40px;
   margin: 80px 0 0 0;
 }
 
@@ -94,10 +102,10 @@ p {
   }
   .appleproducts-img {
     position: absolute;
-    top: 540px;
-    left: 100px;
+    top: -100px;
+    left: 300px;
     z-index: -1;
-    height: 260px;
+    height: 180px;
     width: auto;
   }
   .befront-img {
@@ -120,7 +128,7 @@ p {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .macbookpro-img {
     position: absolute;
-    top: 300px;
+    top: 380px;
     right: 0px;
     z-index: -1;
     height: 260px;
@@ -128,10 +136,10 @@ p {
   }
   .appleproducts-img {
     position: absolute;
-    top: 200px;
-    left: -600px;
+    top: 140px;
+    left: -260px;
     z-index: -1;
-    height: 600px;
+    height: 300px;
     width: auto;
   }
   .befront-img {
@@ -146,26 +154,26 @@ p {
     height: 400px;
     width: 400px;
     position: absolute;
-    top: 30px;
+    top: 50px;
     right: 0px;
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1919px) {
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
   .macbookpro-img {
     position: absolute;
-    top: 180px;
+    top: 380px;
     right: 0px;
     z-index: -1;
-    height: 340px;
+    height: 260px;
     width: auto;
   }
   .appleproducts-img {
     position: absolute;
-    top: 100px;
-    left: -600px;
+    top: 70px;
+    left: -400px;
     z-index: -1;
-    height: 700px;
+    height: 400px;
     width: auto;
   }
   .befront-img {
@@ -180,23 +188,226 @@ p {
     height: 400px;
     width: 600px;
     position: absolute;
-    top: 30px;
+    top: 50px;
     right: 50px;
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
   .macbookpro-img {
     position: absolute;
-    top: 30px;
+    top: 360px;
     right: 0px;
     z-index: -1;
-    height: 700px;
+    height: 260px;
     width: auto;
   }
   .appleproducts-img {
     position: absolute;
-    top: 100px;
+    top: 80px;
+    left: -400px;
+    z-index: -1;
+    height: 400px;
+    width: auto;
+  }
+  .befront-img {
+    position: absolute;
+    top: 380px;
+    left: 210px;
+    z-index: 0;
+    height: 360px;
+    width: auto;
+  }
+  #map {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1349px) {
+  .macbookpro-img {
+    position: absolute;
+    top: 340px;
+    right: 0px;
+    z-index: -1;
+    height: 300px;
+    width: auto;
+  }
+  .appleproducts-img {
+    position: absolute;
+    top: 40px;
+    left: -600px;
+    z-index: -1;
+    height: 500px;
+    width: auto;
+  }
+  .befront-img {
+    position: absolute;
+    top: 380px;
+    left: 210px;
+    z-index: 0;
+    height: 360px;
+    width: auto;
+  }
+  #map {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 1350px) and (max-width: 1399px) {
+  .macbookpro-img {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    z-index: -1;
+    height: 300px;
+    width: auto;
+  }
+  .appleproducts-img {
+    position: absolute;
+    top: 40px;
+    left: -500px;
+    z-index: -1;
+    height: 500px;
+    width: auto;
+  }
+  .befront-img {
+    position: absolute;
+    top: 380px;
+    left: 210px;
+    z-index: 0;
+    height: 360px;
+    width: auto;
+  }
+  #map {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1549px) {
+  .macbookpro-img {
+    position: absolute;
+    top: 260px;
+    right: 0px;
+    z-index: -1;
+    height: 360px;
+    width: auto;
+  }
+  .appleproducts-img {
+    position: absolute;
+    top: 20px;
+    left: -500px;
+    z-index: -1;
+    height: 500px;
+    width: auto;
+  }
+  .befront-img {
+    position: absolute;
+    top: 380px;
+    left: 210px;
+    z-index: 0;
+    height: 360px;
+    width: auto;
+  }
+  #map {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 1550px) and (max-width: 1919px) {
+  .macbookpro-img {
+    position: absolute;
+    top: 260px;
+    right: 0px;
+    z-index: -1;
+    height: 400px;
+    width: auto;
+  }
+  .appleproducts-img {
+    position: absolute;
+    top: 40px;
+    left: -400px;
+    z-index: -1;
+    height: 500px;
+    width: auto;
+  }
+  .befront-img {
+    position: absolute;
+    top: 380px;
+    left: 210px;
+    z-index: 0;
+    height: 360px;
+    width: auto;
+  }
+  #map {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
+
+@media screen and (width: 1920px) {
+  .macbookpro-img {
+    position: absolute;
+    top: 180px;
+    right: 0px;
+    z-index: -1;
+    height: 70%;
+    width: auto;
+  }
+  .appleproducts-img {
+    position: absolute;
+    top: -60px;
+    left: -700px;
+    z-index: -1;
+    height: 700px;
+    width: auto;
+  }
+  .befront-img {
+    position: absolute;
+    top: 400px;
+    left: 230px;
+    height: 360px;
+    width: auto;
+  }
+  #map {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .macbookpro-img {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    z-index: -1;
+    height: 90%;
+    width: auto;
+  }
+  .appleproducts-img {
+    position: absolute;
+    top: -80px;
     left: -400px;
     z-index: -1;
     height: 700px;
@@ -213,7 +424,7 @@ p {
     height: 400px;
     width: 600px;
     position: absolute;
-    top: 30px;
+    top: 50px;
     right: 50px;
   }
 }
