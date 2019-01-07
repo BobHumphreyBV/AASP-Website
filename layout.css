@@ -57,7 +57,7 @@ p {
 
 .appointment-button {
   color: #ffffff;
-  background-color: #F76B1C;
+  background-color: #FB873E;
   border-radius: 5px;
   border: none !important;
   padding: 10px 40px;
@@ -67,7 +67,7 @@ p {
 
 .appointment-button-repair {
   color: #ffffff;
-  background-color: #F76B1C;
+  background-color: #FB873E;
   border-radius: 5px;
   border: none !important;
   padding: 10px 40px;
@@ -78,7 +78,7 @@ p {
   height: 70px;
   line-height: 70px;
   background-color: #ffffff;
-  color: #df6c1b;
+  color: #FB873E;
 }
 
 @media screen and (max-width: 450px) {
