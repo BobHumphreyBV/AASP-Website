@@ -66,7 +66,7 @@ p {
   border-radius: 5px;
   border: none !important;
   padding: 10px 40px;
-  margin-top: 100px;
+  margin-top: 40px;
   margin-bottom: 260px;
   text-decoration: none;
 }
@@ -79,6 +79,15 @@ p {
   padding: 10px 40px;
   margin: 80px 0 0 0;
   text-decoration: none;
+}
+
+.appointment-button:hover,.appointment-button-repair:hover {
+  -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .footer {

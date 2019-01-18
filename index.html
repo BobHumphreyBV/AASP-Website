@@ -86,7 +86,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="offset-lg-4 col-lg-4">
+                <div class="offset-lg-4 col-lg-4" style="margin-top:100px;">
                   <a class="appointment-button-repair" href="https://locate.apple.com/uk/en/">BOOK AN APPOINTMENT</a>
                 </div>
               </div>
@@ -130,7 +130,7 @@
           <li class="lead">Our technician will answer any questions and if possible will provide a diagnosis at the time of the appointment.</li>
           <li class="lead">If any inspection is required, our technician will explain the process and timescales to you.</li>
           <li class="lead">If a repair is necessary, our technician will contact you to discuss the options, confirm costs and timescales.</li>
-          <li class="lead">Appoitments can take between 10-20 minutes depending on the nature of the problem.</li></br></br></br></br>
+          <li class="lead">Appoitments can take between 10-20 minutes depending on the nature of the problem.</li></br>
           <a class="appointment-button" href="https://locate.apple.com/uk/en/">BOOK AN APPOINTMENT</a>
         </ul>
         </div>
@@ -155,27 +155,7 @@
           </div>
           <div class="col-lg-8 col-md-12 col-sm-12">
             <div class="row">
-              <div class="col-lg-12" id="map">
-                <script>
-                  function initMap() {
-                    var Bevalued = {
-                      lat: 50.777143,
-                      lng: 0.287617
-                    };
-                    var map = new google.maps.Map(
-                      document.getElementById('map'), {
-                        zoom: 16,
-                        center: Bevalued
-                      });
-                    var marker = new google.maps.Marker({
-                      position: Bevalued,
-                      map: map
-                    });
-                  }
-                </script>
-                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBajC_3I5qDOFgzPOCvjDIKFMBPdAVvTYE&callback=initMap">
-                </script>
-              </div>
+          <iframe id='map' src='https://maps.google.com/maps?q=be%20valued%20ltd%20technology%20business%20park%20bn22%208ld&amp;t=k&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'><div style='overflow:hidden;'><div id='gmap_canvas' style='height:100%;width:100%;'><div class="zxos8_gm">Powered by <a href="https://www.themesort.com">WordPress Theme</a></div></div></div><div><small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small></div></iframe>
             </div>
             <img class="befront-img" src="images/befront.png" />
           </div>
